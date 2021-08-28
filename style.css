@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0 ;
+}
+.murgi{
+    padding-top: 1.5%;
+}
+.murgi2{
+    margin-top: 5%;
+}
+a{
+    font-weight:600;
+    color: #1b1d1b;
+}
+.btn2{
+    height: 43px;
+    width: 104px;
+    outline: none;
+    border: none;
+    background-color:seagreen;
+    color:#FFFFFF;
+    border-radius: 33px;
+}
+.navbar-nav li{
+    padding-right: 30px;
+}
+.h-bg{
+    background-color:#f0fff0;
+    height: 600px;
+}
+.murgi3{
+    padding-top: 12px;
+}
+.fh{
+    font-family: 'Roboto', sans-serif;
+    font-size: 55px;
+}
+.btn3{
+    margin-top: 3%;
+    height: 43px;
+    width: 150px;
+}
+.part-1{
+    margin-top: 8%;
+    font-size: 18px;
+}
+.part-3{
+    font-size: 18px;
+}
+.n-sec{
+    background-color: #f0fff0e8;
+    padding: 30px 5px;
+    border: px solid red;
+    border-radius: 5%;
+
+}
+.pcard{
+    margin-top: 3%;
+}
+.pcardi{
+    margin-left: 38%;
+}
+.pcard2{
+    padding-top: 8%;
+}
+.m-sec{
+    background-color: #f0fff0e8;
+    padding: 20px 5px;
+    border: 0px solid red;
+    border-radius: 5%;
+}
+.n-sec:hover{
+    background-color: white;
+    box-shadow: 10px 10px 15px lightgray , -10px -10px 15px lightgray;
+}
+.m-sec:hover{
+    background-color: white;
+    box-shadow: 10px 10px 15px lightgray , -10px -10px 15px lightgray;
+}
+.cou{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 7%;
+    color: #413960 ;
+    margin-bottom: 4%;
+}
+.card-icon{
+    margin-top: -3%;
+}
+.fo{
+    margin-top: 10%;
+}
+.footer{
+    background-color: #282531;
+    height: 350px;
+    color: white;
+}
+.f-sub-item{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.842)
+}
+.footer-in{
+    padding-top: 4%;
+}
+.copy{
+    font-size: 15px;
+    margin-top: 3%;
+    color: rgba(255, 255, 255, 0.719);
+}
+.t-img{
+    margin-left: 60%;
+}
+.test-b{
+    margin-bottom: 7%;
+}
+@media screen and (max-width: 600px) {
+    .h-bg{
+        background-color:#f0fff0;
+        height: 850px;
+    }
+    .t-img{
+        margin-left: 35%;
+    }
+    .footer{
+        height: 400px;
+    }
+}
