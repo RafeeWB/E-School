@@ -115,6 +115,18 @@ a{
 .test-b{
     margin-bottom: 7%;
 }
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray , -5px -5px 10px lightgray;
+    border-radius: 10px;
+}
+.card-img-top{
+    width: 320px;
+    height: 234px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+}
 @media screen and (max-width: 600px) {
     .h-bg{
         background-color:#f0fff0;
